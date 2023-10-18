@@ -28,4 +28,5 @@ steps:
       testResultsFiles: '**/surefire-reports/TEST-*.xml'
       mergeTestResults: true
       failTaskOnFailedTests: true
+      publishRunAttachments: true
       testRunTitle: 'React App Test'
