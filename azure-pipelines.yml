@@ -30,14 +30,4 @@ steps:
       failTaskOnFailedTests: true
       publishRunAttachments: true
       testRunTitle: 'React App Test'
-- task: ado-testingextension@1
-  inputs:
-      Operation: 'createTests'
-      DevOpsUrl: 'https://dev.azure.com/BenedicentiKoragod'
-      AzureProjectName: 'Java Pipeline'
-      PAT: 'ffh73pcazmjdtb4vs5vm6zjwsfgb2obwrmpry7j7x7pjuykonzwq'
-      DotnetExePath: 'C:\Program Files\dotnet\dotnet.exe'
-      RepoName: 'https://BenedicentiKoragod@dev.azure.com/BenedicentiKoragod/Java%20Pipeline/_git/Java%20Pipeline'
-      FeatureFilePath: '**/surefire-reports/TEST-*.xml'
-      AreTheseDotnetTests: 'false'
       
